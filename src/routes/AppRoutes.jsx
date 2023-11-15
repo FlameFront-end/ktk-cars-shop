@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 
-import NewsDetail from "../components/News/NewsDetail/NewsDetail";
 import { Home, Profile } from "../pages";
+import NewsDetail from "../pages/NewsDetail/NewsDetail";
 
 const AppRoutes = () => {
   return (

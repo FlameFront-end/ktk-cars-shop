@@ -2,10 +2,12 @@ import { Link, Stack } from "@mui/material";
 import React from "react";
 import { Link as RouterLink } from "react-router-dom";
 
+import s from "./Footer.module.scss";
 const Footer = () => {
   return (
     <Stack
       bgcolor="#1976d2"
+      className={s.footer}
       color="white"
       direction="row"
       gap={20}

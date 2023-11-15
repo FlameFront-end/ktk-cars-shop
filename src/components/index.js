@@ -3,7 +3,6 @@ export { default as Footer } from "./Footer/Footer";
 export { default as Layout } from "./Layout/Layout";
 export { default as Nav } from "./Nav/Nav";
 export { default as NavMobile } from "./NavMobile/NavMobile";
-export { default as NewsDetail } from "./News/NewsDetail/NewsDetail";
 export { default as NewsItem } from "./News/NewsItem/NewsItem";
 export { default as NewsList } from "./News/NewsList/NewsList";
 export { default as ProductCard } from "./Product/ProductCard/ProductCard";
