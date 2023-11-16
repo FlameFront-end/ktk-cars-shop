@@ -37,7 +37,7 @@ export const products = [
   {
     description: "Reliable midsize sedan",
     id: 6,
-    img: "https://i.imgur.com/5QHKwGm.jpg",
+    img: "https://avatars.mds.yandex.net/get-autoru-vos/4055437/a56cbf812c463c86f74c8c877638415a/1200x900n",
     price: "900 руб/день",
     title: "Toyota Camry",
   },
