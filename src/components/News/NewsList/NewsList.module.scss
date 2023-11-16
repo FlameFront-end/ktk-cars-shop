@@ -10,3 +10,10 @@
   justify-content: center;
   flex-wrap: wrap;
 }
+
+@media screen and (max-width: 600px){
+  .newsList {
+    flex-direction: column;
+    align-items: center;
+  }
+}

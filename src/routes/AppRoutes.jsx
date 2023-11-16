@@ -1,14 +1,14 @@
 import { Route, Routes } from "react-router-dom";
 
-import { Home, Profile } from "../pages";
-import NewsDetail from "../pages/NewsDetail/NewsDetail";
+import { CardPage, HomePage, NewsDetail, UserProfile } from "../pages";
 
 const AppRoutes = () => {
   return (
     <Routes>
-      <Route element={<Home />} path="/" />
-      <Route element={<Profile />} path="/profile" />
+      <Route element={<HomePage />} path="/" />
+      <Route element={<UserProfile />} path="/profile" />
       <Route element={<NewsDetail />} path="/news/:id" />
+      <Route element={<CardPage />} path="/card" />
     </Routes>
   );
 };

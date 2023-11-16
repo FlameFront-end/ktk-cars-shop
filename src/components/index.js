@@ -1,3 +1,4 @@
+export { default as AddCardModal } from "./AddCardModal/AddCardModal";
 export { default as AuthModal } from "./AuthModal/AuthModal";
 export { default as Footer } from "./Footer/Footer";
 export { default as Layout } from "./Layout/Layout";

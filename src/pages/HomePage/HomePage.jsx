@@ -1,7 +1,7 @@
 import { NewsList, ProductGrid } from "../../components";
 import { products } from "../../data";
 
-const Home = () => {
+const HomePage = () => {
   return (
     <>
       <ProductGrid products={products} />
@@ -10,4 +10,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default HomePage;

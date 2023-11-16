@@ -4,7 +4,7 @@ import AppBar from "@mui/material/AppBar";
 import Button from "@mui/material/Button";
 import Toolbar from "@mui/material/Toolbar";
 import React, { useState } from "react";
-import { Link as RouterLink } from "react-router-dom";
+import { Link as RouterLink, useLocation } from "react-router-dom";
 
 import { AuthModal, RegistrationModal, SearchFormSidebar } from "../index";
 import s from "./Nav.module.scss";
@@ -23,17 +23,23 @@ const Nav = () => {
   const handleToggleSidebar = () => {
     setIsSidebarOpen(!isSidebarOpen);
   };
+
+  const location = useLocation();
+  const isHomePage = location.pathname === "/";
+
   return (
     <>
       <AppBar>
         <Toolbar className={s.nav}>
-          <button onClick={handleToggleSidebar}>
-            <SearchIcon
-              sx={{
-                color: "#FFF",
-              }}
-            />
-          </button>
+          {isHomePage && (
+            <button onClick={handleToggleSidebar}>
+              <SearchIcon
+                sx={{
+                  color: "#FFF",
+                }}
+              />
+            </button>
+          )}
           <SearchFormSidebar
             isOpen={isSidebarOpen}
             onClose={handleToggleSidebar}

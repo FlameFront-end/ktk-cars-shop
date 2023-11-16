@@ -1,2 +1,5 @@
-export { default as Home } from './Home/Home'
-export { default as Profile } from './Profile/Profile'
+export { default as BookingPage } from "./BookingPage/BookingPage";
+export { default as CardPage } from "./CardPage/CardPage";
+export { default as HomePage } from "./HomePage/HomePage";
+export { default as NewsDetail } from "./NewsDetail/NewsDetail";
+export { default as UserProfile } from "./UserProfilePage/UserProfile";

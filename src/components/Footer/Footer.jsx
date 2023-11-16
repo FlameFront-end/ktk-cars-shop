@@ -23,7 +23,7 @@ const Footer = () => {
         sx={{ display: { sm: "flex", xs: "none" } }}
       >
         <Link color="#FFF" component={RouterLink} to="/">
-          Индекс Драйв
+          Главная
         </Link>
         <Link color="#FFF" component={RouterLink} to="/profile">
           Личный кабинет
